@@ -8,7 +8,7 @@ describe('login::validEmail', () => {
   });
 
   test('TC#2', () => {
-    expect(validEmail('peterklaven')).toBe(true);
+    expect(validEmail('peterklaven')).toBe(false);
   });
 
   test('TC#3', () => {
